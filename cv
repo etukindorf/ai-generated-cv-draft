@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Professional CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        header {
+            background: #1565C0;
+            color: white;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header h2 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        .section-title {
+            font-weight: 500;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+        .chip {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header class="center-align">
+        <div class="container">
+            <h1>Your Name</h1>
+            <h2>Technical Leader & Software Engineer</h2>
+        </div>
+    </header>
+
+    <main class="container">
+        <section>
+            <h3 class="section-title">Professional Summary</h3>
+            <p>
+                Seasoned software engineer and technical leader with over 15 years of experience in building scalable, high-performance systems. Proficient in Java, Kotlin, and modern frameworks like Spring Boot and React, I have a proven track record of transforming complex legacy systems into cutting-edge microservices architectures.
+                
+                Throughout my career, I’ve contributed to diverse projects, from developing enterprise-grade applications for leading market companies to modernizing national lottery systems. My key achievements include successfully managing cross-functional teams and driving the migration of monolithic applications to cloud-based ecosystems while ensuring seamless scalability and robust data consistency.
+
+                I am passionate about continuous learning, reflected in certifications such as Spring Certified Professional and Oracle Java SE 11 Developer, as well as advanced training in DDD, micro frontends, and security. Currently, I lead a team focused on integrating payment solutions and enhancing user experiences with React-based interfaces.
+            </p>
+        </section>
+
+        <section>
+            <h3 class="section-title">Certifications</h3>
+            <ul>
+                <li>Spring Certified Professional 2022</li>
+                <li>Oracle Certified Professional: Java SE 11 Developer</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3 class="section-title">Courses</h3>
+            <p>DDD Training, Legacy Fighter, DNA for Architects, Micro Frontends, Introduction to Security</p>
+        </section>
+
+        <section>
+            <h3 class="section-title">Experience</h3>
+            <ul>
+                <li>
+                    <strong>JEE Developer</strong> at Britenet (October 2009 - January 2021)
+                    <p>Contributed to multiple projects for leading market companies, ensuring quality and scalability.</p>
+                </li>
+                <li>
+                    <strong>Java Technical Leader</strong> at Britenet (February 2021 - August 2022)
+                    <p>Led a team modernizing national lottery systems and transforming legacy systems to cutting-edge technologies.</p>
+                </li>
+                <li>
+                    <strong>Technical Leader</strong> at [Current Company] (August 2022 - Present)
+                    <p>Managing a team responsible for integrating payment solutions, building React-based applications, and transitioning systems to the cloud.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h3 class="section-title">Skills</h3>
+            <div class="chip">Java</div>
+            <div class="chip">Kotlin</div>
+            <div class="chip">PHP</div>
+            <div class="chip">Spring Boot</div>
+            <div class="chip">React</div>
+            <div class="chip">Microservices</div>
+            <div class="chip">Cloud Technologies</div>
+            <div class="chip">TDD</div>
+        </section>
+
+        <section>
+            <h3 class="section-title">Major Achievement</h3>
+            <p>
+                Successfully transformed a legacy monolithic Java project into a robust microservices architecture, enabling high scalability and strong data consistency for a national lottery system.
+            </p>
+        </section>
+    </main>
+
+    <footer class="center-align">
+        <p>&copy; 2025 Your Name | All Rights Reserved</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
